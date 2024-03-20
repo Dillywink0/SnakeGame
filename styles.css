@@ -1,0 +1,44 @@
+canvas {
+    border: 1px solid black;
+    background: gold;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+    text-align: center; /* Center the contents horizontally */
+}
+#score {
+    font-size: 18px; /* Increase font size for score counter */
+    padding: 10px; /* Add padding */
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Display inline with other elements */
+}
+#timer {
+    font-size: 24px; /* Increase font size for timer */
+    padding: 10px; /* Add padding */
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Display inline with other elements */
+}
+/* Add styles for the "Play Again" button */
+.play-again-button {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white;
+    padding: 15px 32px; /* Padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.play-again-button:hover {
+    background-color: #45a049; /* Darker green when hovered */
+}
